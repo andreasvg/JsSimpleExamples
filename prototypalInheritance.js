@@ -18,5 +18,8 @@ will.instrument = 'drums';
 will.playInstrument();
 will.saySpecies();
 
+// change functionality high up in the inheritance tree:
 human.species = 'homo sapiens';
+
+// note that this takes effect in descendants:
 will.saySpecies();
